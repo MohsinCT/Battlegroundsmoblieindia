@@ -1,0 +1,585 @@
+.nav-bar{
+     width:100%;
+     height: 79px;
+     background-color:black;
+     position:fixed;
+     display:flex;
+     z-index: 10;
+     
+     
+}
+.nav-logo{
+    width:122px;
+    height:60px;
+}
+.logo{
+    background-image:url("logo.png");
+    width:122%;
+    height:60px;
+    background-size: cover;
+    margin:10px;
+ 
+}
+*{
+    border:border-box;
+    margin:0;
+    font-family: teko;
+    
+}
+.set1 li{
+    color: rgba(255, 255, 255, 0.541);
+    width:100px;
+    height:50px;
+    display: inline;
+    padding: 15px;
+    cursor: pointer;
+
+
+    
+}
+body{
+    background-image: url("image005_1658127645505_1658127663987_1658127663987.webp");
+    height: 3363px;
+}
+p{
+    text-align: center;
+}
+#main{
+    
+    width: 1280px;
+    height:720px;
+    
+    display: flex;
+    z-index: -15;
+}
+#bg{
+    width: 100%;
+    height: 720px;
+}
+ul li{
+    list-style: none;
+    
+   
+
+}
+.set1{
+    margin-top:30px;
+    margin-left:20px;
+}
+li:hover {
+    color: #fffdf9f5;
+}
+#hm{
+    color: rgba(255, 153, 0, 0.903);
+}
+#applogo{
+    width: 50px;
+    height: 50px;
+    margin-left: 130px;
+    margin-top:11px;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+#hm:hover{
+    color: white;
+}
+i:hover{
+    color: rgb(255, 157, 0);
+ 
+}
+#applogo2{
+    width:50px;
+    height: 50px;
+    color: white;
+    margin-left: 10px;
+    margin-top:12px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    cursor: pointer;
+}
+#applogo3{
+    width:50px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     margin-top:12px;
+     margin-left:9px;
+     cursor: pointer;
+}
+.ios{
+    width:130px;
+    height: 78px;
+    background-color:#D49700;
+    margin-left:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.aos{
+    width:130px;
+    height:78px;
+    background-color:#D49700;
+    margin-left: 2px;
+    display: flex;
+    font-size:20px;
+    
+}
+.aos-child{
+    width:130px;
+    height:76px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aos:hover{
+    background-color: #d49800bc;
+    cursor: pointer;
+
+}
+.ios:hover{
+    background-color: #d49800bc;
+    cursor: pointer;
+}
+#main-child{
+    width: 460px;
+    height: 129px;
+    position: absolute;
+    left: 70px;
+    top: 300px;
+    z-index: 1;
+
+}
+.visual{
+    font-size: 90px;
+    position: absolute;
+    top: -30px;
+    color: #530C0A;
+    
+    
+}
+.visual2{
+    position: absolute;
+    top: 50px;
+    font-size: 90px;
+    color: #530C0A;
+    
+}
+#gm{
+    font-size: 15px;
+}
+.fo-logo{
+    position: absolute;
+    left: 750px;
+    top:330px;
+    height: 53px;
+}
+
+
+.apple{
+    width: 202px;
+    height:60px;
+    position: absolute;
+    background-image: url("btn_appstore_202.png");
+    bottom:150px;
+    left: 70px;
+    cursor: pointer;
+}
+.google{
+    position: absolute;
+    bottom:150px;
+    left:300px;
+    cursor: pointer;
+    width: 202px;
+    height: 60px;
+    background-image: url("btn_googleplay_202.png");
+
+
+}
+
+.img1{
+    width: 1280px;
+    height: 1006px;
+    margin-top: -100px;
+}
+#KI{
+    margin-top:-85px;
+    font-size: 50px;
+    margin-left: -30px;
+}
+.next{
+    width: 1280px;
+    height: 909px;
+    background-image: url("videot_bg.jpg");
+    position: absolute;
+    top: 720px;
+
+}
+.in{
+    font-size: 50px;
+    position: absolute;
+    left: 470px;
+    top: 70px;
+
+}
+iframe{
+width: 1200px;
+height: 650px;
+position: absolute;
+top: 190px;
+left: 45px;
+}
+.yeh{
+    width: 1280px;
+    height: 745.3px;
+    background-image: url("news_bg\ \(1\).jpg");
+    position: absolute;
+    top: 1630px;
+
+}
+#vartha{
+    font-size: 60px;
+    margin-top:80px;
+}
+.box{
+    width: 396px;
+    height: 346px;
+    position: absolute;
+    left: 40px;
+    top: 190px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.box1{
+    width: 381px;
+    height: 341px;
+    background-color: #fff;
+}
+
+
+
+img{
+    width: 381px;
+    height: 210px;
+
+}
+
+
+.box2{
+    margin-left:25px;
+    width:381px;
+    height: 341px;
+    background-color: #fff;
+}
+.box3{
+    margin-left:30px;
+    width: 381px;
+    height: 341px;
+    background-color: #fff;
+}
+#sem1{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    color: gray; 
+}
+#sem2{
+    position: absolute;
+    left: 430px;
+    font-size: 22px;
+    color: gray;
+}
+#sem3{
+    position: absolute;
+    left: 835px;
+    font-size: 22px;
+    color: grey;
+}
+#nen1{
+    position: absolute;
+    top: 250px;
+    font-size: 20px;
+    left:20px;
+}
+#date1{
+     position: absolute;
+     top: 310px;
+     font-size: 20px;
+     left: 20px;
+     color: gray;
+}
+#nen2{
+    margin-top: 33px;
+    margin-left: -65px;
+    font-size: 20px;
+}
+#date2{
+    margin-top:30px;
+    font-size: 20px;
+    margin-left:-255px;
+    color: grey;
+}
+#nen3{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: -90px;
+}
+#date3{
+    margin-top:30px;
+    font-size: 20px;
+    margin-left: -270px;
+    color: grey;
+}
+#view{
+    width: 204px;
+    height: 54px;
+    color: gray;
+    font-size: 20px;
+    margin-left: 550px;
+    margin-top: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.82);
+    cursor: pointer;
+}
+#view:hover{
+    color: black;
+    border: 2px solid black;
+}
+.pat{
+    width: 100%;
+    height: 666px;
+    background-image: url("video_bg.jpg");
+    position: absolute;
+    top: 2310px;
+
+}
+#part{
+    width: 1177px;
+    height: 66px;
+    color: white;
+    font-size: 60px;
+    position:absolute;
+    left: 50px;
+    top: 100px;
+
+}
+.pts{
+    width: 1177px;
+    height:365px;
+    
+    position: absolute;
+    left: 50px;
+    top: 190px;
+}
+.pts-child1{
+    width: 379px;
+    height: 345px;
+    background:white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+.pts-child2{
+    width: 379px;
+    height: 345px;
+    background-color:white;
+    position: absolute;
+    left: 400px;
+    top: 10px;
+}
+.pts-child3{
+    width: 379px;
+    height: 345px;
+    background-color: white;
+    position: absolute;
+    left: 790px;
+    top: 10px;
+
+}
+#cl{
+    position: absolute;
+    left: -1px;
+}
+#cls{
+    color: black;
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    font-size: 25px;
+}
+#dt{
+    color: gray;
+    position: absolute;
+    top: 310px;
+    left: 25px;
+    font-size: 20px;
+}
+.sh{
+    width: 235px;
+    height: 365px;
+    background-color: #00000086;
+    position: absolute;
+    background-size: cover;
+}
+.sh1{
+    width: 235px;
+    height: 365px;
+    background-color: rgba(0, 0, 0, 0.344);
+    position: absolute;
+    left: 950px;
+    background-size: cover;
+}
+.twolast{
+    width: 1280px;
+    height: 388px;
+    
+    position: absolute;
+    top: 2975px;
+}
+#la{
+    width: 1300px;
+    height: 388px;
+}
+.final{
+    width: 1280px;
+    height: 126px;
+    background-color: black;
+    position: absolute;
+    top: 3363px;
+    
+    
+}
+#logoL{
+    width: 1200px;
+    height: 122px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    bottom: 150px;
+}
+#logog{
+    width: 117px;
+    height: 117px;
+}
+#down{
+    width: 1200px;
+    height: 70px;
+    
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+    
+}
+#ka{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#appletwo{
+    width: 250px;
+    height: 76px;
+
+    position: absolute;
+    left: 330px;
+    cursor: pointer;
+
+}
+#aps{
+    width:250px ;
+    height: 76px;
+}
+#googletwo{
+    width: 250px;
+    height: 76px;
+    
+    position: absolute;
+    left: 590px;
+    cursor: pointer;
+}
+#gog{
+    width: 250px;
+    height: 76px;
+}
+#mainlogotwo{
+    width: 157px;
+    height: 20px;
+    
+    position: absolute;
+    left: 550px;
+    top:10px;
+}
+#logotwo{
+    width: 157px;
+    height: 20px;
+    color: white;
+}
+#copyright{
+    width: 300px;
+    height: 32px;
+    
+    position: absolute;
+    left: -17px;
+
+}
+#ez{
+    color: grey;
+}
+#ptro{
+    width: 1200px;
+    height: 21px;
+
+    position: absolute;
+    left: -500px;
+    
+    
+}
+#p{
+    position: absolute;
+    left: 400px;
+    color: gray;
+   
+}
+#p:hover{
+    color: white;
+}
+#t{
+    position: absolute;
+    left: 477px;
+    color: gray;
+}
+#t:hover{
+    color: white;
+}
+#r{
+    position: absolute;
+    left: 575px;
+    color: gray;
+}
+#r:hover{
+    color: white;
+}
+#o{
+    position: absolute;
+    left: 675px;
+    color: grey;
+}
+#o:hover{
+    color: white;
+}
